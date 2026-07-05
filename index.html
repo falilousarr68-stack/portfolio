@@ -1,78 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Falilou Sarr</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
 
-<body>
-
-<header>
-    <nav>
+  <body>
+    <header>
+      <nav>
         <h2 class="logo">Falilou Sarr</h2>
         <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#apropos">À propos</a></li>
-            <li><a href="#competences">Compétences</a></li>
-            <li><a href="#projets">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<section id="accueil" class="hero">
-
-    <div class="hero-content">
-
-        <img src="images/photo.jpeg"
-             alt="Photo de Falilou Sarr"
-             class="profile-photo">
+    <section id="accueil" class="hero">
+      <div class="hero-content">
+        <img
+          src="images/photo.jpeg"
+          alt="Photo de Falilou Sarr"
+          class="profile-photo"
+        />
 
         <div class="hero-text">
+          <h1>Bonjour, je suis <span>Falilou Sarr</span></h1>
 
-            <h1>Bonjour, je suis <span>Falilou Sarr</span></h1>
+          <h3>Développeur Logiciel | Mobile | Web</h3>
 
-            <h3>Développeur Logiciel | Mobile | Web</h3>
+          <p>
+            Passionné par le développement d'applications desktop, mobiles et
+            web.
+          </p>
 
-            <p>
-                Passionné par le développement d'applications
-                desktop, mobiles et web.
-            </p>
-
-            <a href="CV_Fallou_Sarr.pdf"
-               class="btn"
-               target="_blank">
-
-               Télécharger mon CV
-
-            </a>
-
+          <a href="CV_Fallou_Sarr.pdf" class="btn" target="_blank">
+            Télécharger mon CV
+          </a>
         </div>
+      </div>
+    </section>
 
-    </div>
-
-</section>
-
-<section id="apropos">
-    <h2>À propos de moi</h2>
-    <p>
+    <section id="apropos">
+      <h2>À propos de moi</h2>
+      <p>
         Je suis étudiant en informatique passionné par le développement
-        logiciel.
-        J'aime concevoir des applications performantes et résoudre des
+        logiciel. J'aime concevoir des applications performantes et résoudre des
         problèmes concrets grâce à la programmation.
-    </p>
-</section>
+      </p>
+    </section>
 
-<section id="competences">
-    <h2>Compétences</h2>
-    <div class="skills">
+    <section id="competences">
+      <h2>Compétences</h2>
+      <div class="skills">
         <div>C++</div>
         <div>Qt</div>
         <div>Java</div>
@@ -82,72 +78,86 @@
         <div>Django</div>
         <div>Git</div>
         <div>GitHub</div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="projets">
-    <h2>Mes projets</h2>
+    <section id="projets">
+      <h2>Mes projets</h2>
 
-    <div class="project">
+      <div class="project">
         <h3>💧 Gestion de facturation d'eau</h3>
         <p>
-            Application desktop développée en C++/Qt permettant de gérer les abonnés,
-            les compteurs, les prélèvements, les factures et les paiements.
+          Application desktop développée en C++/Qt permettant de gérer les
+          abonnés, les compteurs, les prélèvements, les factures et les
+          paiements.
         </p>
-    </div>
+      </div>
 
-    <div class="project">
+      <div class="project">
         <h3>🎵 Deezer Mobile</h3>
         <p>
-            Application Android utilisant l'API Deezer permettant de rechercher des
-            artistes et d'écouter leurs chansons.
+          Application Android utilisant l'API Deezer permettant de rechercher
+          des artistes et d'écouter leurs chansons.
         </p>
-    </div>
+        <video width="100%" controls>
+          <source src="videos/video2.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-    <div class="project">
+      <div class="project">
         <h3>🔐 LDAP & Samba</h3>
         <p>
-            Mise en place d'une authentification centralisée sous Ubuntu avec LDAP,
-            Samba et SSSD.
+          Mise en place d'une authentification centralisée sous Ubuntu avec
+          LDAP, Samba et SSSD.
         </p>
-    </div>
+      </div>
 
-    <div class="project">
+      <div class="project">
         <h3>📚 Partage de ressources</h3>
         <p>
-            Mise en place d’une application web en utilisant Django pour le partage des ressources pédagogiques (cours, TD, TP, demande de soutenance, ...) entre les enseignants et les étudiants.
+          Mise en place d’une application web en utilisant Django pour le
+          partage des ressources pédagogiques (cours, TD, TP, demande de
+          soutenance, ...) entre les enseignants et les étudiants.
         </p>
-    </div>
+        <video width="100%" controls poster="images/django.png">
+          <source src="videos/video1.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-    <div class="project">
+      <div class="project">
         <h3>🚗 Location de voitures</h3>
         <p>
-            Mise en place d’une application web avec PHP pour la gestion de location de voitures.
+          Mise en place d’une application web avec PHP pour la gestion de
+          location de voitures.
         </p>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
         <i class="fa-solid fa-envelope"></i>
         falilousarr68@gmail.com
-    </p>
-    <p>
+      </p>
+      <p>
         <i class="fa-brands fa-github"></i>
         github.com/falilousarr68-stack
-    </p>
-    <p>
-        <a href="https://www.linkedin.com/in/falilou-sarr-09aa52380" class="btn" target="_blank" rel="noopener noreferrer">
-            <i class="fa-brands fa-linkedin"></i>
-            Mon Profil LinkedIn
+      </p>
+      <p>
+        <a
+          href="https://www.linkedin.com/in/falilou-sarr-09aa52380"
+          class="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+          Mon Profil LinkedIn
         </a>
-    </p>
-</section>
+      </p>
+    </section>
 
-<footer>
-    <p>© 2026 Fallou Sarr</p>
-</footer>
-
-</body>
+    <footer>
+      <p>© 2026 Fallou Sarr</p>
+    </footer>
+  </body>
 </html>
